@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-item{
+    
+    text-transform: uppercase;
+}
+
+
+
+
+.container{
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.container span{
+    font-size: 16px;
+    color: #cdc7bf;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.photodiary{
+    width: 85%;
+    margin: auto;
+    color: #626262;
+    
+    
+}
+
+.photodiary p{
+    padding: 32px 0px;
+    line-height: 1.8;
+}
+
+.photodiary img{
+    padding-bottom: 50px;
+}
+
+
+.newsletter{
+    padding: 60px 0px;
+    background-color: lightgrey;
+    margin-bottom: 100px;
+ }
+ 
+ .news{
+    width: 38%;
+    margin: auto;
+ }
+ .news h1{
+     padding-bottom: 80px;
+     font-size: 30px;
+     color: #333333;
+     font-weight: 400;
+ }
+ 
+ .bb input{
+     border: none;
+     background: transparent;
+     border-bottom: 1px solid black;
+     width: 80%;
+     height: 30px;
+     
+ }
+ 
+ .bb img{
+     position: relative;
+     right: 35px;
+     top: 0px;
+ }
+ 
+
+ .load-more{
+    width: 149px;
+    margin: auto;
+    padding-bottom: 138px;
+}
+
+.cc{
+    padding: 16px 19px;
+    font-size: 20px;
+    color: #626262;
+}
+
+footer{
+    
+    background-color: #f0f0f0;
+
+}
+
+.footer-content{
+    padding: 20px 0px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.terms{
+   width: 25%
+}
+
+.terms{
+    list-style: none;
+    
+}
+
+
+
+.terms  a{
+    color: #303030;
+    text-decoration: none;
+}
+
+.social-icon{
+      width: 25%;
+}
+
+.social-icon {
+    
+    list-style: none;
+    
+}
+
+.social-icon ul li{
+
+}
+
+.social-icon a{
+    color: #303030;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 760px) {
+    .news{
+
+        width: 350px;
+        margin: auto;
+    
+     }
+
+     .bb{
+         margin-left: 50px;
+     }
+     
+     .news h1{
+         display: flex;
+         justify-content: center;
+         font-size: medium;
+     } 
+  }
+
+
+  @media only screen and (max-width: 320px) {
+    .news{
+
+        width: 100%;
+        margin: auto;
+    
+     }
+
+     .bb{
+         margin-left: 30px;
+     }
+     
+     .news h1{
+         display: flex;
+         justify-content: center;
+         font-size: medium;
+     } 
+  }
